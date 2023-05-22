@@ -16,15 +16,15 @@
   }
 }
 /* Homepage background color */
-.Home  {
+body{
   @apply bg-cyan-900
 }
 /* Updatepage background color */
 .Update  {
-  @apply bg-purple-200 h-screen text-center 
+  @apply h-screen text-center 
 }
 .Update button{
-  @apply bg-purple-700 p-3 rounded-sm
+  @apply bg-purple-500 p-3 mx-5 rounded-xl hover:bg-purple-400 duration-500
 }
 /* Table style and color */
 th {
@@ -34,3 +34,18 @@ td {
   @apply  border border-slate-600
 }
 
+/* Form input on the update page */
+
+.Form input {
+  @apply text-center rounded-md
+}
+
+/* Input Home page style */
+
+.AddValue {
+  @apply rounded-xl p-2 border-2 border-cyan-500
+}
+/* Home button style */
+tbody button {
+  @apply p-2 rounded-md m-1
+}
